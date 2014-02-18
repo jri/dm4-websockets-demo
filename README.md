@@ -55,11 +55,11 @@ Run
 Version History
 ---------------
 
-**0.2** -- upcoming
+**0.2** -- Feb 18, 2014
 
-* Compatible with DeepaMehta 4.2-SNAPSHOT and DeepaMehta 4 WebSockets 0.2-SNAPSHOT
+* Compatible with DeepaMehta 4.2 and DeepaMehta 4 WebSockets 0.2
 
 
 ------------
 Jörg Richter  
-Jan 11, 2014
+Feb 18, 2014
