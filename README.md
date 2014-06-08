@@ -55,6 +55,10 @@ Run
 Version History
 ---------------
 
+**0.2.1** -- Jun 8, 2014
+
+* Compatible with DeepaMehta 4.3 and DeepaMehta 4 WebSockets 0.2.1
+
 **0.2** -- Feb 18, 2014
 
 * Compatible with DeepaMehta 4.2 and DeepaMehta 4 WebSockets 0.2
@@ -62,4 +66,4 @@ Version History
 
 ------------
 Jörg Richter  
-Feb 18, 2014
+Jun 8, 2014
