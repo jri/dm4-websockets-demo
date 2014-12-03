@@ -6,10 +6,7 @@ import de.deepamehta.plugins.websockets.service.WebSocketsService;
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.model.TopicModel;
 import de.deepamehta.core.osgi.PluginActivator;
-import de.deepamehta.core.service.ClientState;
-import de.deepamehta.core.service.Directives;
-import de.deepamehta.core.service.PluginService;
-import de.deepamehta.core.service.annotation.ConsumesService;
+import de.deepamehta.core.service.Inject;
 import de.deepamehta.core.service.event.PostUpdateTopicListener;
 
 import java.util.logging.Logger;
@@ -21,30 +18,17 @@ public class WebSocketsExamplePlugin extends PluginActivator implements PostUpda
 
     // ---------------------------------------------------------------------------------------------- Instance Variables
 
+    @Inject
     private WebSocketsService webSocketsService;
 
     private Logger logger = Logger.getLogger(getClass().getName());
 
     // -------------------------------------------------------------------------------------------------- Public Methods
 
-    // *** Hook Implementations ***
-
-    @Override
-    @ConsumesService("de.deepamehta.plugins.websockets.service.WebSocketsService")
-    public void serviceArrived(PluginService service) {
-        webSocketsService = (WebSocketsService) service;
-    }
-
-    @Override
-    public void serviceGone(PluginService service) {
-        webSocketsService = null;
-    }
-
     // *** Listener Implementations ***
 
     @Override
-    public void postUpdateTopic(Topic topic, TopicModel newModel, TopicModel oldModel, ClientState clientState,
-                                                                                       Directives directives) {
+    public void postUpdateTopic(Topic topic, TopicModel newModel, TopicModel oldModel) {
         webSocketsService.broadcast(getUri(), topic.toJSON().toString());
     }
 
