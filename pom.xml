@@ -7,20 +7,20 @@
     <name>DeepaMehta 4 WebSockets Example</name>
     <groupId>de.deepamehta</groupId>
     <artifactId>dm44-websockets-example</artifactId>
-    <version>0.2.2</version>
+    <version>0.2.3</version>
     <packaging>bundle</packaging>
 
     <parent>
         <groupId>de.deepamehta</groupId>
         <artifactId>deepamehta-plugin-parent</artifactId>
-        <version>4.4</version>
+        <version>4.7</version>
     </parent>
 
     <dependencies>
         <dependency>
             <groupId>de.deepamehta</groupId>
             <artifactId>dm44-websockets</artifactId>
-            <version>0.2.2</version>
+            <version>0.2.3</version>
         </dependency>
     </dependencies>
 

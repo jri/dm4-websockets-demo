@@ -1,7 +1,7 @@
 package de.deepamehta.plugins.websockets.example;
 
+import de.deepamehta.plugins.websockets.WebSocketsService;
 import de.deepamehta.plugins.websockets.event.WebsocketTextMessageListener;
-import de.deepamehta.plugins.websockets.service.WebSocketsService;
 
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.model.TopicModel;
