@@ -1,7 +1,8 @@
-package de.deepamehta.plugins.websockets.example;
+package de.deepamehta.websockets.example;
 
-import de.deepamehta.plugins.websockets.WebSocketsService;
-import de.deepamehta.plugins.websockets.event.WebsocketTextMessageListener;
+import de.deepamehta.websockets.WebSocketConnection;
+import de.deepamehta.websockets.WebSocketsService;
+import de.deepamehta.websockets.event.WebsocketTextMessageListener;
 
 import de.deepamehta.core.Topic;
 import de.deepamehta.core.model.TopicModel;
@@ -33,7 +34,7 @@ public class WebSocketsExamplePlugin extends PluginActivator implements PostUpda
     }
 
     @Override
-    public void websocketTextMessage(String message) {
+    public void websocketTextMessage(String message, WebSocketConnection connection) {
         logger.info("### Receiving message from WebSocket client: \"" + message + "\"");
     }
 }
