@@ -33,11 +33,11 @@ Run
 
    In the server log you'll see:
 
-        Jan 11, 2014 5:38:26 PM de.deepamehta.plugins.websockets.WebSocketsServer$PluginWebSocket onOpen
+        Apr 18, 2016 5:13:07 PM de.deepamehta.websockets.WebSocketConnection onOpen
         INFO: ### Opening a WebSocket connection for plugin "de.deepamehta.websockets-example"
 
-        Jan 11, 2014 5:38:26 PM de.deepamehta.plugins.websockets.example.WebSocketsExamplePlugin websocketTextMessage
-        INFO: ### Receiving message from WebSocket client: "Hello WebSocket server!"
+        Apr 18, 2016 5:13:07 PM de.deepamehta.websockets.demo.WebSocketsDemoPlugin websocketTextMessage
+        INFO: ### Receiving message from WebSocket client: "Hello WebSockets server!"
 
 2. In the WebSocket client: open the browser's web console. You'll see:
 

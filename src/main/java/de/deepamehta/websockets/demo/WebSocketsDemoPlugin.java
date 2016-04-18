@@ -1,4 +1,4 @@
-package de.deepamehta.websockets.example;
+package de.deepamehta.websockets.demo;
 
 import de.deepamehta.websockets.WebSocketConnection;
 import de.deepamehta.websockets.WebSocketsService;
@@ -14,8 +14,8 @@ import java.util.logging.Logger;
 
 
 
-public class WebSocketsExamplePlugin extends PluginActivator implements PostUpdateTopicListener,
-                                                                        WebsocketTextMessageListener {
+public class WebSocketsDemoPlugin extends PluginActivator implements PostUpdateTopicListener,
+                                                                     WebsocketTextMessageListener {
 
     // ---------------------------------------------------------------------------------------------- Instance Variables
 

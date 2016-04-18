@@ -4,9 +4,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>DeepaMehta 4 WebSockets Example</name>
+    <name>DeepaMehta 4 WebSockets Demo</name>
     <groupId>de.deepamehta</groupId>
-    <artifactId>dm48-websockets-example</artifactId>
+    <artifactId>dm48-websockets-demo</artifactId>
     <version>0.3-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
@@ -31,8 +31,9 @@
                 <artifactId>maven-bundle-plugin</artifactId>
                 <configuration>
                     <instructions>
+                        <!-- Note: the symbolic name is legacy and must not be changed -->
                         <Bundle-SymbolicName>de.deepamehta.websockets-example</Bundle-SymbolicName>
-                        <Bundle-Activator>de.deepamehta.websockets.example.WebSocketsExamplePlugin</Bundle-Activator>
+                        <Bundle-Activator>de.deepamehta.websockets.demo.WebSocketsDemoPlugin</Bundle-Activator>
                     </instructions>
                 </configuration>
             </plugin>
