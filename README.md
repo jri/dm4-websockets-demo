@@ -1,6 +1,6 @@
 
-DeepaMehta 4 WebSockets Example
-===============================
+DeepaMehta 4 WebSockets Demo
+============================
 
 A simple DeepaMehta 4 plugin that demonstrates the usage of WebSockets.
 
@@ -17,7 +17,7 @@ Install
 1. Install the DeepaMehta 4 WebSockets plugin:  
    <https://github.com/jri/dm4-websockets>
 
-2. Install this example plugin.
+2. Install this demo plugin.
 
 3. Start DeepaMehta.
 
@@ -55,6 +55,10 @@ Run
 Version History
 ---------------
 
+**0.3** -- Apr 18, 2016
+
+* Compatible with DeepaMehta 4.8 and DeepaMehta 4 WebSockets 0.3
+
 **0.2.3** -- Mar 22, 2014
 
 * Compatible with DeepaMehta 4.7 and DeepaMehta 4 WebSockets 0.2.3
@@ -74,4 +78,4 @@ Version History
 
 ------------
 Jörg Richter  
-Mar 22, 2014
+Apr 18, 2016
